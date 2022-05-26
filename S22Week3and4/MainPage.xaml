@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S22Week3and4.MainPage">
+
+ <Grid BackgroundColor="Yellow" Padding="20,100,20,20">
+     <Grid.RowDefinitions>
+         <RowDefinition Height="*"/>
+         <RowDefinition Height="*"/>
+         <RowDefinition Height="*"/>
+         <RowDefinition Height="*"/>
+         <RowDefinition Height="3*"/>
+     </Grid.RowDefinitions>
+
+     
+     <Button Grid.Row="0"
+             Grid.Column="0"
+             Text="1"
+             BackgroundColor="White"
+             Clicked="Button_Clicked"  />
+
+<Button Grid.Row="0"
+             Grid.Column="1"
+             Text="2"
+             BackgroundColor="White" Clicked="Button_Clicked"/>
+<Button Grid.Row="0"
+             Grid.Column="2"
+             Text="3"
+              Clicked="Button_Clicked"
+             BackgroundColor="White"/>
+<Button Grid.Row="2"
+             Grid.Column="2"
+             Text="4"
+             BackgroundColor="White"
+         Clicked="Button_Clicked" 
+        />
+
+     <Button Grid.Row="1"
+             Grid.Column="0"
+             Text="5"
+             BackgroundColor="White"/>
+
+   
+<Button Grid.Row="1"
+             Grid.Column="1"
+             Text="6"
+             BackgroundColor="White"/>
+<Button Grid.Row="1"
+             Grid.Column="2"
+             Text="7"
+             BackgroundColor="White"/>
+
+ <Button Grid.Row="1"
+             Grid.Column="3"
+             Text="8"
+             BackgroundColor="White"/>
+
+<Button Grid.Row="2"
+             Grid.Column="0"
+             Text="9"
+             BackgroundColor="White"/>
+     
+<Button Grid.Row="2"
+             Grid.Column="1"
+             Text="0"
+             BackgroundColor="White"/>
+
+    
+     <Button Grid.Row="0"
+             Grid.Column="3"
+             Text="+"
+             BackgroundColor="Gray"/>
+
+ <Button Grid.Row="1"
+             Grid.Column="3"
+             Text="-"
+          Clicked="Button_Clicked" 
+             BackgroundColor="Gray"
+          FontSize="Title"/>
+
+<Button Grid.Row="2"
+             Grid.Column="3"
+             Text="*"
+            FontSize="Title"
+             BackgroundColor="Gray"/>
+     
+<Button Grid.Row="3"
+             Grid.Column="3"
+             Text="/"
+                FontSize="Title"
+             BackgroundColor="Gray"/>
+
+     <Button Grid.Row="3" Grid.Column="0"
+             BackgroundColor = "Red"
+             Grid.ColumnSpan="3"
+             Text="="
+             FontSize="Title"
+             />
+
+     <Label x:Name="resulttext"
+         Grid.Row="4" Grid.Column="0"
+            Text="The Result"
+            FontSize="Title"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Grid.ColumnSpan="4"/>
+
+     <!--<Grid.RowDefinitions>
+         <RowDefinition Height="*"/>
+         <RowDefinition Height="100"/>
+         <RowDefinition Height="2*"/>
+     </Grid.RowDefinitions>
+
+
+     <Grid.ColumnDefinitions>
+         <ColumnDefinition Width="3*"/>
+         <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+     </Grid.ColumnDefinitions>
+     <Label Grid.Row="0" Grid.Column="0"
+            Text="Hello Grid"
+            FontSize="Large"
+            BackgroundColor="Gray"/>
+     <Label Grid.Row="0" Grid.Column="1"
+            BackgroundColor="Red"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Text="Hello Col 2"/>
+      <Label Grid.Row="0" Grid.Column="1"
+            BackgroundColor="White"
+             HorizontalOptions="Start"
+            VerticalOptions="Center"
+            Text="Hello Col 2"/>
+     <Button Grid.Row="1"
+             Grid.Column="0"
+             Text="Click Me"
+             Grid.ColumnSpan="2"
+             BackgroundColor="Green"/>
+
+    
+    <Image Grid.Row="2" Grid.Column="0"
+           Grid.ColumnSpan="3"
+          Source ="https://images.freeimages.com/images/small-previews/a31/colorful-umbrella-1176220.jpg"/>
+
+
+     <Label Grid.Row="0" Grid.Column="2"
+            Grid.RowSpan="2"
+            BackgroundColor="Purple"/>-->
+     </Grid>
+</ContentPage>
